@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p.artc__par {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.bg-par {
+  background-image: url(./img/callof1.PNG);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.9;
+  font-size: 50px;
+}
+
+.bg-par1 {
+  margin-top: 100px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(26, 26, 59);
+  outline-offset: 16px;
+}
+
+.bg-par1:hover {
+  background-color: rgb(48, 108, 116);
+  color: azure;
+  transition: all 2s;
+}
+
+article {
+  background-color: #575252;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 48px 80px;
+  line-height: 28px;
+}
+
+/*? ikinci kisim*/
+
+div.second__img {
+  background-image: url(./img/callof2.PNG);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2.second__h2 {
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(26, 26, 59);
+  outline-offset: 16px;
+  color: black;
+  font-size: 50px;
+}
+
+h2.second__h2:hover {
+  background-color: rgb(48, 108, 116);
+  color: azure;
+  transition: all 2s;
+}
+
+/*? Ucuncu kisim*/
+div.third__img {
+  background-image: url(./img/callof3.PNG);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2.third__h2 {
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(26, 26, 59);
+  outline-offset: 16px;
+  color: black;
+  font-size: 50px;
+}
+
+h2.third__h2:hover {
+  background-color: rgb(48, 108, 116);
+  color: azure;
+  transition: all 2s;
+}
+
+/*? dorduncu kisim*/
+
+div.fourth__img {
+  background-image: url(./img/callof4.PNG);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2.fourth__h2 {
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(26, 26, 59);
+  outline-offset: 16px;
+  color: black;
+  font-size: 50px;
+}
+
+h2.fourth__h2:hover {
+  background-color: rgb(48, 108, 116);
+  color: azure;
+  transition: all 2s;
+}
